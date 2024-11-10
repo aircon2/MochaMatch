@@ -29,3 +29,21 @@ document.getElementById('submit-interests-btn').addEventListener('click', functi
         alert("Please select at least one interest.");
     }
 });
+
+let currentPoints = 0;
+const maxPoints = 100;
+
+function updatePoints(amount) {
+    // Update points within the range of 0 to 100
+    currentPoints = Math.max(0, Math.min(maxPoints, currentPoints + amount));
+
+    // Update the points display
+    document.getElementById('points').textContent = currentPoints;
+
+    // Update the progress bar width
+    const progressBar = document.getElementById('progress-bar');
+    const progressPercentage = (currentPoints / maxPoints) * 100;
+    progressBar.style.width = progressPercentage + '%';
+}
+
+

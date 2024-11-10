@@ -65,5 +65,42 @@
     </footer>
 
     <script src="../backend/script.js"></script>
+
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Point System with Progress Bar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Point System</h1>
+        <p>Current Points: <span id="points">0</span>/100</p>
+
+        <!-- Buttons to add or subtract points -->
+        <button onclick="updatePoints(10)">+10 Points</button>
+        <button onclick="updatePoints(-10)">-10 Points</button>
+
+        <!-- Progress Bar -->
+        <div id="progress-bar-container">
+            <div id="progress-bar"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+
 </body>
 </html>
