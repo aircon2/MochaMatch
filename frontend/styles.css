@@ -1,11 +1,11 @@
-/* Basic Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and Page Layout */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -13,7 +13,7 @@ body {
     text-align: center;
 }
 
-/* Popup Styling */
+
 .popup {
     position: fixed;
     top: 0;
@@ -34,7 +34,7 @@ body {
 }
 
 button {
-    background-color: #d4af37; /* Coffee color */
+    background-color: #d4af37; 
     color: white;
     font-size: 16px;
     border: none;
@@ -49,7 +49,7 @@ button:hover {
     background-color: #bc8a4d;
 }
 
-/* Interests Section */
+
 .interests-section {
     margin-top: 30px;
     background-color: white;
@@ -75,7 +75,7 @@ button:hover {
     margin-bottom: 10px;
 }
 
-/* Matches Section */
+
 .matches-section {
     margin-top: 30px;
     background-color: white;
@@ -113,7 +113,6 @@ button:hover {
     margin-bottom: 5px;
 }
 
-/* Footer Styling */
 footer {
     margin-top: 50px;
     font-size: 0.9rem;

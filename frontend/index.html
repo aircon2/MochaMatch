@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Popup for Mentor/Mentee Selection -->
     <div id="popup" class="popup">
         <div class="popup-content">
             <h2>Would you like to be a Mentor or Mentee?</h2>
@@ -16,7 +15,6 @@
         </div>
     </div>
 
-    <!-- Interests Selection Form -->
     <div id="interests-section" class="interests-section hidden">
         <h2>Select Your Interests</h2>
         <div class="interest-options">
@@ -29,7 +27,7 @@
         <button id="submit-interests-btn">Find Matches</button>
     </div>
 
-    <!-- Matches Section -->
+
     <div id="matches-section" class="matches-section hidden">
         <h2>Individuals with Similar Interests</h2>
         <div class="match-list">
@@ -87,11 +85,11 @@
         <h1>Point System</h1>
         <p>Current Points: <span id="points">0</span>/100</p>
 
-        <!-- Buttons to add or subtract points -->
+    
         <button onclick="updatePoints(10)">+10 Points</button>
         <button onclick="updatePoints(-10)">-10 Points</button>
 
-        <!-- Progress Bar -->
+    
         <div id="progress-bar-container">
             <div id="progress-bar"></div>
         </div>
